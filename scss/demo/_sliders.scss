@@ -1,0 +1,197 @@
+
+/* ----------------------------------------------------------------
+
+	slider.scss
+
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Slider
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Add here styles for all sliders. Thanks!
+-----------------------------------------------------------------*/
+
+.scale-sm {
+	transform: scale(0.85);
+}
+
+.scale-xs {
+	transform: scale(0.65);
+}
+
+.arrow {
+	.arrow-left {
+		@include media-breakpoint-up(xl) {
+			margin-right: 9rem;
+		}
+		margin-right: 2rem;
+		font-size: 2rem;
+		color: #cccccc;
+		
+
+		&:hover {
+			color: black;
+		}
+	}
+	
+	.arrow-right {
+		font-size: 2rem;
+		@include media-breakpoint-up(xl) {
+			margin-left: 9rem;
+		}
+		margin-left: 2rem;
+		color: #cccccc;
+
+		&:hover {
+			color: black;
+		}
+	}
+}
+
+
+.color-dots {
+	display: flex;
+	align-items: center;
+	.dot {
+		width: 0.5rem;
+		height: 0.5rem;
+		border-radius: 50%;
+		margin: 0 0.5rem;
+
+	}
+
+	.dot1 {
+		background-color: #418a10;
+	}
+
+	.dot2 {
+		background-color: $theme-color;
+	}
+
+	.dot3 {
+		background-color: black;
+	}
+
+	.dot4 {
+		background-color: #0b84f5;
+	}
+
+	.active {
+		border-color: #418a10;
+		width: 0.9rem;
+		height: 0.9rem;
+		border-radius: 50%;
+	}
+}
+
+#news {
+	.slick-arrow {
+		.arrow-left {
+			position: absolute;
+			top: 36%;
+			transform: translateY(-50%);
+			left: -10%;
+			font-size: 2rem;
+			color: #cccccc;
+	
+			&:hover {
+				color: black;
+			}
+		}
+	
+		.arrow-right {
+			position: absolute;
+			top: 35%;
+			transform: translateY(-50%);
+			right: -10%;
+			font-size: 2rem;
+			color: #cccccc;
+			z-index: 10;
+	
+			&:hover {
+				color: black;
+			}
+		}
+	}
+}
+
+#newProduct {
+	.slick-arrow {
+		@include media-breakpoint-down(xl) {
+			display: none;
+		}
+		.arrow-left {
+			position: absolute;
+			top: 47%;
+			transform: translateY(-50%);
+			left: -10%;
+			font-size: 2rem;
+			color: #cccccc;
+	
+			&:hover {
+				color: black;
+			}
+		}
+	
+		.arrow-right {
+			position: absolute;
+			top: 48%;
+			transform: translateY(-50%);
+			right: 15%;
+			font-size: 2rem;
+			color: #cccccc;
+			z-index: 10;
+	
+			&:hover {
+				color: black;
+			}
+		}
+	}
+	
+}
+
+	
+
+.team-logos {
+	.slider-arrow {
+		position: absolute;
+		top: -13%;
+		margin-top: -12px;
+		color: #eaeaea;
+		line-height: 36px;
+		font-size: 2.6rem;
+		cursor: pointer;
+		z-index: 10;
+		width: fit-content;
+	}
+
+	.slick-slide.slick-current.slick-active.slick-center{
+		transform: scale(1); 
+		transition: all 0.5s;  
+		opacity: 1;
+	}
+	.slick-slide.slick-active{
+		opacity: 0.8;
+		transform: scale(0.7);}
+	
+}
+
+div.slider-prev {
+	right: calc(50% - 1140px / 2);
+	margin-right: 5rem;
+
+	&:hover {
+		color: black;
+	}
+}
+div.slider-next {
+	right: calc(50% - 1140px / 2);
+
+	&:hover {
+		color: black;
+	}
+}

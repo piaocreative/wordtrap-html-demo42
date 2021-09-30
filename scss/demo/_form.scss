@@ -1,0 +1,37 @@
+
+/*-----------------------------------------------------------------------------------
+
+	Form: form.scss
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+	Form Styles
+-----------------------------------------------------------------*/
+
+// Textarea
+textarea {
+    resize: none;
+}
+
+.contact-input {
+    padding: 1.4375rem 1.5625rem;
+    border: 1px solid #cccccc;
+    font-family: $heading-font;
+    font-weight: 500;
+    font-size: $font-size-base;
+    color: $topbar-color;
+
+    &::placeholder {
+        font-family: $heading-font;
+        font-weight: 500;
+        font-size: $font-size-base;
+        color: $topbar-color;
+        // Override Firefox's unusual default opacity; see https://github.com/twbs/bootstrap/pull/11526.
+        opacity: 1;
+    }
+
+    &:focus {
+        border-color: $theme-color;
+    }
+}

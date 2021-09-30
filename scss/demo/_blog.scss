@@ -1,0 +1,98 @@
+
+/* ----------------------------------------------------------------
+
+	blog.scss
+
+-----------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+	Blog
+-----------------------------------------------------------------*/
+
+.post {
+	position: relative;
+	margin-bottom: 1.875rem;
+
+	&.post-flat {
+		display: flex;
+		
+		.post-thumbnail {
+			flex: 1;
+		}
+
+		.post-content {
+			flex: 1;
+		}
+	}
+}
+
+.post-thumbnail {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: auto;
+
+	a {
+		display: block;
+	}
+
+	img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
+	}
+}
+
+.post-content {
+	position: relative;
+	padding: 1.625rem 0 0;
+}
+
+.entry-title {
+	h4 {
+		font-family: $heading-font;
+		font-size: 2.1875rem;
+		font-weight: 400;
+		line-height: $line-height-sm;
+		margin-bottom: 1.5rem;		
+
+		a {
+			color: #000000;
+			
+			&:hover { color: $theme-color; }
+		}
+	}
+}
+
+.entry-meta {
+	list-style: none;
+	margin-bottom: 1.25rem;
+
+	li {
+		i {
+			color: rgba($theme-color, 0.5);
+			margin-right: 0.75rem;
+		}
+
+		a {
+			font-weight: 400;
+			color: rgba($color: #000000, $alpha: .5);
+		}
+	}
+}
+
+.entry-content { 
+	position: relative; 
+	margin-bottom: 3.125rem;
+}
+
+.entry-link {
+	display: block;
+	color: $theme-color;
+	font-family: $body-font;
+	text-transform: uppercase;
+	font-size: $h6-font-size;
+	font-weight: 600;
+	line-height: $line-height-lg;
+}

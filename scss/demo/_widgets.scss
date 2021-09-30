@@ -1,0 +1,118 @@
+
+/* ----------------------------------------------------------------
+
+	widgets.scss
+
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Widgets
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Add here styles for widgets. Thanks!
+-----------------------------------------------------------------*/
+
+
+.widget {
+	right: 0;
+
+	.widget-title {
+		font-size: $h3-font-size;
+		font-family: $heading-font;
+		font-weight: 400;
+		margin-bottom: 0.75rem;
+	}
+
+	// Widget - Social
+	&.widget-social {
+
+		.social-icons {
+			li {
+				padding: 0 $spacer / 4;
+
+				&:last-child {
+					padding-right: 0;
+				}
+		
+				a {
+					background-color: $topbar-color;					
+					color: white;
+					display: inline-block;
+					width: 1.8125rem;
+					height: 1.8125rem;		
+					vertical-align: middle;
+					text-align: center;
+		
+					&:hover {
+						background-color: #83b5ff;
+						// color: $theme-color;
+					}
+		
+					i {
+						line-height: 1.8125rem;
+					}
+
+				}
+			}
+		}
+	}
+
+	// Widget - Links
+	&.widget-links {
+		ul {
+			display: flex;
+			justify-content: space-between;
+
+			li {
+				a {
+					color: $white;
+					font-weight: 600;
+					text-transform: uppercase;
+				}
+			}
+		}
+	}
+
+	// Widget - Payments
+	&.widget-payment {
+		.payments {
+			display: flex;
+
+			.payment-icon {
+				display: inline-block;
+				vertical-align: middle;
+				margin-right: 0.75rem;
+				width: 4.125rem;
+				height: 2rem;
+				background-color: transparent;
+				background-size: 100% auto;
+				background-repeat: no-repeat;
+				background-position: center;
+
+				&.visa {
+					background-image: url("../images/payments/visa.png");
+				}
+
+				&.paypal {
+					background-image: url("../images/payments/paypal.png");
+				}
+
+				&.mastercard {
+					background-image: url("../images/payments/mastercard.png");
+				}
+
+				&:hover {
+					transition: all .3s ease-in-out;
+					background-color: $theme-color;
+				}
+			}
+		}
+	}
+}
+
+
+/* Widget - Products
+-----------------------------------------------------------------*/

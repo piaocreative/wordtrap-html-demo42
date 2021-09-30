@@ -1,0 +1,76 @@
+
+/*-----------------------------------------------------------------------------------
+
+	Shortcodes: partners.scss
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+	Partners logo Styles
+-----------------------------------------------------------------*/
+
+.logos {
+	
+	.logo-item {
+		max-width: 10.625rem;
+		height: 4rem;
+		width: 100%;
+		display: flex !important;
+		align-items: center;
+		justify-content: center;
+
+		img {
+			width: auto;
+			height: auto;
+		}
+	}
+}
+
+.team-logos {
+
+	.logo-item {
+		// max-width: 13rem;
+		// height: 4rem;
+		width: 100%;
+		display: flex !important;
+		// flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+		img {
+			width: auto;
+			height: auto;
+		}
+
+		.logo-detail {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.team-name {
+			font-family: $heading-font;
+			font-size: 2.1875rem;
+			font-weight: 500;
+			line-height: 1;
+			color: #000000;
+			margin-top: 1.3125rem;
+			margin-bottom: 1.125rem;
+		}
+
+		.team-content {
+			font-family: $body-font;
+			font-size: 1rem;
+			// line-height: 1.5;
+			// margin-bottom: 1.375rem;
+			padding: 0 3rem;
+		}
+
+		.team-info {
+			font-family: $heading-font;
+			font-size: 1.25rem;
+			font-weight: 500;
+		}
+	}
+
+}
