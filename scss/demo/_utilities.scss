@@ -16,22 +16,11 @@
 
 // Text Color
 .text-black { color: #000 !important; }
-.text-black-opacity { color: rgba($color: $topbar-color, $alpha: .5) !important; }
 .text-light-black { color: rgba($color: #000000, $alpha: .8) !important; }
-.text-white-opacity { color: rgba($color: #ffffff, $alpha: .8) !important; }
 .theme-color { color: $theme-color; }
 //background-color
 .bg-black { background-color: black; }
 .bg-white { background-color:  white; }
-
-//text-alignment
-.text-xl-down-center { 
-	text-align: center !important;
-
-	@include media-breakpoint-up(xl) {
-		text-align: start !important;
-	}
-}
 
 .opacity-80 { opacity: 0.8 !important; }
 
@@ -43,6 +32,13 @@ img {
 	&.img-full {
 		width: 100%;
 	}
+}
+
+.bg-cover {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
 }
 
 //--------------------Container------------------//

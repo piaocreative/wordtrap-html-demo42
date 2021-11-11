@@ -43,7 +43,7 @@
       
       <div id="header-wrap">
 
-        <nav class="navbar navbar-expand-xl navbar-light header-border">
+        <nav class="navbar navbar-expand-xl navbar-light border-bottom">
           <div class="container">
 
             <!-- Logo
@@ -60,7 +60,7 @@
 
             <div id="navbarCollapse" class="collapse navbar-collapse position-relative">
               
-              <div class="heading-number">
+              <div class="top-info">
                 <a href="#"><i class="fas fa-phone-alt"></i>+1 234 56 78 90</a>
               </div>
   
@@ -179,26 +179,29 @@
 
         <!-- Banner
         ============================================= -->
-        <div class="section bg-img about-top-padding" style="background-image: url('images/banner/about_banner_1.png');">
-          <div class="container">
-            <div class="row">
-              <div class="col-12 d-flex flex-column align-items-center">
-                <div class="page-directory mt-0">
-                  <a href="#"><span class="home-directory">Home /</span></a>
-                  <a href="#"><span class="other-directory">About Us</span></a>
-                </div>      
-                <div id="page-title">
-                  <h1 class="title text-white text-center contact-title-my mb-0">About Us<br>and Our Company</h1>
-                </div>
-              </div>
-            </div>
+        <div id="about-banner" class="banner mb-4" style="background-image: url('images/banner/about_banner_1.png');">
+          <div class="breadcrumb justify-content-center">
+            <ul class="d-flex gap-3">
+              <li>
+                <a href="#">Home /</a>
+              </li>
+              <li>
+                <a href="#" class="active">About Us</a>
+              </li>
+            </ul>
           </div>
-        </div><!-- #banner -->
 
-        <div class="container">
+          <div id="page-title">
+            <h1 class="title text-center">About Us<br>and Our Company</h1>
+          </div>
 
-          <div class="section about-line">
-            <div class="row">
+        </div>
+
+        <div class="section">
+          
+          <div class="container">
+
+            <div class="row border-bottom pb-5">
               <div class="col-xl-6">
                 <p class="body-font fs-4 text-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
               </div>
@@ -206,77 +209,87 @@
                 <p class="body-font fs-4 text-black mb-0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi </p>
               </div>
             </div>
+
           </div>
+
+        </div>
 
           <!-- History
           ============================================= -->
-          <div class="section">
-            <div class="row">
-              <div class="col-xl-6">
-                <div id="page-title">
-                  <h1 class="title text-xl-down-center mb-5 pb-4">History of Our Company</h1>
-                  <div class="img-about">
+          <div class="section pt-0">
+
+            <div class="container">
+
+              <div class="row">
+                <div class="col-xl-6">
+                  <div class="heading-block">
+                    <h2 class="title mb-5 pb-4">History of Our Company</h2>
                     <img src="images/ads/ads_1.png" alt="about us" class="img-fluid">
                   </div>
                 </div>
-              </div>
-              <div class="col-xl-6 mt-2">
-                <p class="body-font fs-4 text-black mb-5">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-                <div id="page-title" class="d-flex flex-row mb-3">
-                  <h2 class="mark-title lh-sm mb-0" data-content="01"><span>1989. First Bicycle or company</span></h2>
+                <div class="col-xl-6 mt-2">
+                  <p class="fs-4 text-dark mb-5">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                  <div class="d-flex mb-3">
+                    <h2 class="event-title lh-sm mb-0" data-content="01"><span>1989. First Bicycle or company</span></h2>
+                  </div>
+                  <p class="body-font fs-4 text-dark mb-5">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                  <div  class="d-flex mb-3">
+                    <h2 class="event-title lh-sm mb-0" data-content="02"><span>1996. The first production of the company</span></h2>
+                  </div>
+                  <p class="body-font fs-4 text-dark mb-5">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
                 </div>
-                <p class="body-font fs-4 text-black mb-5">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-                <div id="page-title" class="d-flex flex-row mb-3">
-                  <h2 class="mark-title lh-sm mb-0" data-content="02"><span>1996. The first production of the company</span></h2>
+                <div class="col-12">
+                  <img src="images/ads/ads_2.png" alt="about us" class="img-full">
                 </div>
-                <p class="body-font fs-4 text-black mb-5">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
               </div>
-              <div class="col-12">
-                <img src="images/ads/ads_2.png" alt="about us" class="img-full">
-              </div>
+
             </div>
+
           </div><!-- #history -->
 
           <!-- Healthy
           ============================================= -->
-          <div class="section-margin-bottom">
-            <div class="row">
-              <div class="col-xl-4">
-                <div class="d-flex justify-content-center justify-content-xl-start mb-3 mb-xl-0">
-                  <img src="images/ads/ads_3.png" alt="about us" class="img-fluid">
+          <div class="section pt-0">
+            <div class="container">
+              <div class="row">
+                <div class="col-xl-4">
+                  <div class="d-flex justify-content-center justify-content-xl-start mb-3 mb-xl-0">
+                    <img src="images/ads/ads_3.png" alt="about us" class="img-fluid">
+                  </div>
                 </div>
-              </div>
-              <div class="col-xl-8">
-                <div id="page-title">
-                  <h1 class="title text-xl-down-center mb-5 pb-2">In a Healthy Body, a Healthy Mind</h1>
+                <div class="col-xl-8">
+                  <div class="heading-block">
+                    <h1 class="title mb-5 pb-2">In a Healthy Body, a Healthy Mind</h1>
+                  </div>
                   <div class="row">
                     <div class="col-lg-6">
-                      <p class="body-font fs-4 text-black mb-0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                      <p class="fs-4 text-dark mb-0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
                     </div>
                     <div class="col-lg-6">
-                      <p class="body-font fs-4 text-black mb-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.<br><br>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor</p>
+                      <p class="fs-4 text-dark mb-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.<br><br>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div><!-- #healthy -->
+        
         </div>
 
         <!-- Our team
         ============================================= -->
         <div class="section-padding-bottom">
           <div class="container">
-            <div id="page-title">
+            <div class="heading-block">
               <h1 class="title">Our team</h1>
             </div>
           </div>
-          <div class="container-fluid">
+          <div class="container-fluid p-0">
             <div class="row">
               <div class="col-12">
                 <button type="button" data-role="none" class="slick-prev slick-arrow" aria-label="Previous" role="button" style="display: block;">Previous</button>
                 <button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button" style="display: block;">Next</button>
-                <div class="team-logos d-flex">
+                <div class="team-logos">
                   <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5 g-xl-0">
                     <div class="col">
                       <div class="logo-item scale-xs opacity-80">
@@ -333,60 +346,68 @@
               </div>
             </div>
           </div>
-        </div>
-        <!-- #team -->
-        <div class="container">
-          <!-- Ads
-          ============================================= -->
-          <div class="section-padding-bottom">
+        </div><!-- #team -->
+
+        <!-- Ads
+        ============================================= -->
+        <div class="section pt-0">
+          <div class="container">
             <div class="row">
               <div class="col-xl-6">
-                <div class="ads" style="background-image: url('images/ads/ads_4.png');">
-                  <div class="ads-content">
-                    <div class="ads-img">
-                      <img src="images/ads/ads_5.png" alt="Ads Image">
-                    </div>
-                    <div class="row g-0">
+                <div class="ads">
+                  <div class="ads-bg">
+                    <div class="ads-bg-img" style="background-image: url('images/ads/ads_4.png');"></div>
+                  </div>
+                  <div class="ads-body">
+                    <div class="row g-xl-0">
                       <div class="col-11 col-xl-5 d-flex flex-column justify-content-center justify-content-xl-start">
-                        <h3 class="ads-title text-xl-down-center" data-content="50% off">Championship Kit</h3>
-                        <p class="text-xl-down-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-                        <button type="submit" class="btn btn-primary btn-black-skew col-12 text-uppercase">go to page <img src="images/icons/arrow.png" alt="404 page" class="img-fluid"></button>
+                        <h4 data-content="50% off">Championship Kit</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+                        <button type="submit" class="btn btn-primary btn-black-skew text-uppercase">go to page <img src="images/icons/arrow.png" alt="404 page" class="img-fluid"></button>
                       </div>
+                    </div>
+                    <div class="ads-thumbnail">
+                      <img src="images/ads/ads_5.png" alt="Ads Image">
                     </div>
                   </div>
                 </div>
               </div>
               <div class="col-xl-6">
-                <div class="ads" style="background-image: url('images/ads/ads_6.png');">
-                  <div class="ads-content">
-                    <div class="ads-img">
-                      <img src="images/ads/ads_7.png" alt="Ads Image">
-                    </div>
-                    <div class="row g-0">
+                <div class="ads">
+                  <div class="ads-bg">
+                    <div class="ads-bg-img"  style="background-image: url('images/ads/ads_6.png');"></div>
+                  </div>
+                  <div class="ads-body">
+                    <div class="row g-xl-0">
                       <div class="col-11 col-xl-5 d-flex flex-column justify-content-center justify-content-xl-start">
-                        <h3 class="ads-title text-xl-down-center">Challenge Yourself</h3>
-                        <p class="text-xl-down-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
-                        <button type="submit" class="btn btn-primary btn-skew col-12 text-uppercase">go to page <img src="images/icons/arrow.png" alt="404 page" class="img-fluid"></button>
+                        <h4>Challenge Yourself</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
+                        <button type="submit" class="btn btn-primary btn-skew text-uppercase">go to page <img src="images/icons/arrow.png" alt="404 page" class="img-fluid"></button>
                       </div>
+                    </div>
+                    <div class="ads-thumbnail">
+                      <img src="images/ads/ads_7.png" alt="Ads Image">
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div><!-- #ads -->
+          </div>
+        </div><!-- #ads -->
 
+        <!-- NEWS
+        ============================================= -->
+        <div class="section pt-0">
 
-          <!-- NEWS
-          ============================================= -->
-          <div class="section-padding-bottom">
+          <div class="container">
 
-            <div id="page-title" class="d-flex justify-content-between align-items-center mb-5 pb-2">
-              <h1 class="title text-xl-down-center mb-0">News</h1>
+            <div class="heading-block d-flex justify-content-between align-items-center mb-5 pb-2">
+              <h2 class="title mb-0">News</h2>
               <span class="heading-font fw-medium text-black text-uppercase">all news</span>
             </div>
             <div id="news" class="row position-relative">
               <div class="col-xl-4">
-                <div class="post">
+                <article class="post">
                   <div class="post-thumbnail">
                     <a href="#">
                       <img src="images/posts/post_1.png" alt="Post Image">
@@ -394,21 +415,17 @@
                   </div>
                   <div class="post-content">
                     <div class="entry-meta">
-                      <li>
                         <a href="#">04 March 2021</a>
-                      </li>
                     </div>
-                    <div class="entry-title">
-                      <h4><a href="#">15 minutes of intense cycling improves memory</a></h4>
-                    </div>
+                    <h4 class="entry-title"><a href="#">15 minutes of intense cycling improves memory</a></h4>
                     <div class="entry-content">
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum </p>
                     </div>
                   </div>
-                </div>
+                </article>
               </div>
               <div class="col-xl-4">
-                <div class="post">
+                <article class="post">
                   <div class="post-thumbnail">
                     <a href="#">
                       <img src="images/posts/post_2.png" alt="Post Image">
@@ -420,17 +437,15 @@
                         <a href="#">03 March 2021</a>
                       </li>
                     </div>
-                    <div class="entry-title">
-                      <h4><a href="#">ROLLOE-bicycle wheel for air purification</a></h4>
-                    </div>
+                    <h4 class="entry-title"><a href="#">ROLLOE-bicycle wheel for air purification</a></h4>
                     <div class="entry-content">
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum  </p>
                     </div>
                   </div>
-                </div>
+                </article>
               </div>
               <div class="col-xl-4">
-                <div class="post">
+                <article class="post">
                   <div class="post-thumbnail">
                     <a href="#">
                       <img src="images/posts/post_3.png" alt="Post Image">
@@ -442,23 +457,22 @@
                         <a href="#">02 March 2021</a>
                       </li>
                     </div>
-                    <div class="entry-title">
-                      <h4><a href="#">Bauke Mollema-winner of Trofeo Laigueglia-2021</a></h4>
-                    </div>
+                    <h4 class="entry-title"><a href="#">Bauke Mollema-winner of Trofeo Laigueglia-2021</a></h4>
                     <div class="entry-content">
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum </p>
                     </div>
                   </div>
-                </div>
+                </article>
               </div>
               <div class="slick-arrow">
                 <div class="arrow-left"><i class="fas fa-long-arrow-alt-left"></i></div>
                 <div class="arrow-right"><i class="fas fa-long-arrow-alt-right"></i></div>
               </div>
             </div>
-          </div><!-- #news -->
 
-        </div>
+          </div>
+          
+        </div><!-- #news -->
 
         <!-- logos
         ============================================= -->
@@ -481,23 +495,26 @@
 
         </div><!-- #logos -->
 
-
-        <div class="section bg-img" style="background-image: url('images/banner/about_banner_2.png');">
+        <div class="section bg-cover" style="background-image: url('images/banner/about_banner_2.png');">
           <div class="container">
             <div class="row">
               <div class="col-xl-5">
-                <div id="page-title">
-                  <h1 class="title text-white text-xl-down-center mb-0">Subsctibe to Our News</h1>
+                <div class="heading-block">
+                  <h2 class="title text-white mb-0">Subsctibe to Our News</h2>
                 </div>
               </div>
               <div class="col-xl-5 offset-xl-2">
                 <form action="#" class="my-4">
                   <div class="input-group">
-                    <label class="skew-border col-6"><input type="text" value="" class="skew-inpput col-12" name="email" id="Email" placeholder="EMAIL" /></label>
-                    <button type="submit" class="btn btn-primary btn-skew col-6 col-xl-5 text-uppercase">SUBSCRIBE <img src="images/icons/arrow.png" alt="404 page" class="img-fluid"></button>
+                    <label class="skew-border col-6"><input type="text" value="" class="skew-inpput" name="email" id="Email" placeholder="EMAIL" /></label>
+                    <button type="submit" class="btn btn-primary btn-skew text-uppercase">SUBSCRIBE <img src="images/icons/arrow.png" alt="404 page" class="img-fluid"></button>
                   </div>
                 </form>
-                <p class="body-font fs-4 col-xl-9 text-white-opacity text-xl-down-center mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                <div class="row">
+                  <div class="col-xl-9">
+                    <p class="fs-4 text-white-50 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -510,6 +527,7 @@
     <!-- Footer
     ============================================= -->
     <footer id="footer">
+      
       <div class="container">
 
         <!-- Footer Main
@@ -520,58 +538,57 @@
                 <div class="footer-logo">
                   <img src="images/footer-logo.png" alt="footer logo" class="img-fluid">
                 </div>
-                <p class="body-font lh-1 mb-0 mt-5">Consultation on the order:</p>
+                <p class="lh-1 mb-0 mt-5">Consultation on the order:</p>
                 <p class="heading-font text-primary fs-2 lh-1 my-3">8 800 779 32 12</p>
-                <p class="body-font lh-1 mb-0">Monday – Saturday:</p>
-                <p class="body-font lh-1 my-2">09 am – 10 pm</p>
+                <p class="lh-1 mb-0">Monday – Saturday:</p>
+                <p class="lh-1 my-2">09 am – 10 pm</p>
               </div>
               <div class="col-xl-3 col-5">
-                <h5 class="heading-font fs-3 fw-regular text-capitalize text-white pt-2 mb-4">Customer Services</h5>
-          
-                <ul class="widget">
-                  <li><a href="#">Help & FAQs</a></li>
-                  
-                  <li><a href="#">Order Tracking</a></li>
 
-                  <li><a href="#">Shipping & Delivery</a></li>
-
-                  <li><a href="#">Orders History</a></li>
-
-                  <li><a href="#">Advanced Search</a></li>
-
-                  <li><a href="#">Login</a></li>
-                </ul>
-              </div>
-              <div class="col-xl-4 col-7">
-                <h5 class="heading-font fs-3 fw-regular text-capitalize text-white pt-2 mb-4">About Us</h5>
-          
-                <div class="row">
-                  <div class="col-6 col-xl-4">
-                    <ul class="widget">
-                      <li><a href="#">About Us</a></li>
-                      
-                      <li><a href="#">Careers</a></li>
-      
-                      <li><a href="#">Our Stores</a></li>
-      
-                      <li><a href="#">Corporate Sales</a></li>
-      
-                      <li><a href="#">Careers</a></li>
-                    </ul>
-                  </div>
-                  <div class="col-6 col-xl-8">
-                    <ul class="widget">
-                      <li><a href="#">About the company</a></li>
-                      <li><a href="#">Delivery and payment</a></li>
+                <div class="widget widget-links">
+                  <h5 class="widget-title text-capitalize text-white pt-2 mb-4">Customer Services</h5>
+                  <div class="widget-content">
+                    <ul>
+                      <li><a href="#">Help & FAQs</a></li>
+                      <li><a href="#">Order Tracking</a></li>
+                      <li><a href="#">Shipping & Delivery</a></li>
+                      <li><a href="#">Orders History</a></li>
+                      <li><a href="#">Advanced Search</a></li>
+                      <li><a href="#">Login</a></li>
                     </ul>
                   </div>
                 </div>
+
               </div>
-              <div class="col-xl-2 d-flex flex-column align-items-center align-items-xl-end">
+
+              <div class="col-xl-4 col-7">
+                  <div class="widget widget-links">
+                    <h5 class="widget-title text-capitalize text-white pt-2 mb-4">About Us</h5>
+                    <div class="widget-content">
+                      <div class="d-md-flex gap-4 justify-content-between">
+                        <ul>
+                          <li><a href="#">About Us</a></li>
+                          <li><a href="#">Careers</a></li>
+                          <li><a href="#">Our Stores</a></li>
+                          <li><a href="#">Corporate Sales</a></li>
+                          <li><a href="#">Careers</a></li>
+                        </ul>
+
+                        <ul>
+                          <li><a href="#">About the company</a></li>
+                          <li><a href="#">Delivery and payment</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+              </div>
+
+              <div class="col-xl-2 text-center text-lg-end">
                 <h5 class="heading-font fs-3 fw-regular text-capitalize text-white pt-2 mb-4">Social Network</h5>
                 <div class="widget widget-social">
                   <div class="widget-content">
-                    <ul class="social-icons d-flex align-items-center">
+                    <ul class="social-icons d-flex align-items-center justify-content-center justify-content-lg-end">
                       <li><a href="#" target="_blank" title="Facebook"><i class="fab fa-instagram"></i></a></li>
                       <li><a href="#" target="_blank" title="Twitter"><i class="fab fa-facebook-f"></i></a></li>
                       <li><a href="#" target="_blank" title="Linkedin"><i class="fab fa-telegram-plane"></i></a></li>
@@ -579,31 +596,37 @@
                   </div>
                 </div>
               </div>
+
+              </div>
+
             </div>
         </div><!-- #footer-main -->
 
         <!-- Footer bottom
         ============================================= -->
         <div class="footer-bottom">
-          <div class="row">
-            <div class="col-md-4 d-flex align-items-center justify-content-center justify-content-md-start">
-              <p id="copyrights" class="mb-4 mb-md-0">Copyright &copy; 2020 FoodSite</p>
-            </div>
-            <div class="col-md-4">
+          
+          <div class="container">
+
+            <div class="d-md-flex justify-content-center justify-content-lg-between align-items-center">
+              <p class="mb-4 mb-md-0">Copyright &copy; 2020 FoodSite</p>
+
               <div class="widget widget-payment col-sm-auto">
                 <div class="widget-content">
                   <div class="payments d-flex justify-content-center">
                     <span class="payment-icon visa"></span>
+                    <span class="payment-icon mastercard"></span>
                     <span class="payment-icon paypal"></span>
-                    <span class="payment-icon mastercard me-0"></span>
                   </div>                                    
                 </div>
               </div>
+
+              <p class="mt-4 mt-md-0">All Rights Reserved</p>
+
             </div>
-            <div class="col-md-4 d-flex align-items-center justify-content-center justify-content-md-end">
-              <p id="copyrights" class="mt-4 mt-md-0">All Rights Reserved</p>
-            </div>
+
           </div>
+
         </div><!-- #footer-bottom -->
 
       </div>

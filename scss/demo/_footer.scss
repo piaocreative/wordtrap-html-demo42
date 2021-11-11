@@ -31,18 +31,6 @@
 		color: #8c8c8c;
 	}
 
-	.widget {
-		a {
-			font-family: $body-font;
-			font-size: $font-size-base;
-			color: rgba($color: #ffffff, $alpha: .5);
-			
-			&:hover {
-				color: rgba($color: #ffffff, $alpha: 1.0);
-			}
-		}
-	}
-
 	.footer-logo {
 		display: block;
 	}
@@ -51,15 +39,15 @@
 .footer-bottom {
 	padding-top: 2.625rem;
 	padding-bottom: 4.125rem;
+
+	p {
+		color: #8c8c8c;
+		font-size: 0.875rem;
+		font-weight: 400;
+		line-height: 1;
+	}
 }
 
 .footer-line {
 	border-bottom: 2px solid #151515;
-}
-
-#copyrights {
-	color: #8c8c8c;
-	font-size: 0.875rem;
-	font-weight: 400;
-	line-height: 1;
 }

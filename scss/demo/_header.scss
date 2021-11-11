@@ -211,6 +211,25 @@
 }
 
 
+.top-info {
+	i {
+		color: $theme-color;
+		font-size: 1rem;
+		margin-right: 0.8125rem;
+	}
+
+	a{
+		font-family: $body-font;
+		font-size: $font-size-base;
+		color: $topbar-color;
+
+		&:hover {
+			color: $theme-color;
+		}
+	}
+}
+
+
 /* ----------------------------------------------------------------
 	Top Links
 -----------------------------------------------------------------*/

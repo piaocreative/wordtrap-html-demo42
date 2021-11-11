@@ -37,7 +37,7 @@
       
       <div id="header-wrap">
 
-        <nav class="navbar navbar-expand-xl navbar-light header-border">
+        <nav class="navbar navbar-expand-xl navbar-light border-bottom">
           <div class="container">
 
             <!-- Logo
@@ -54,7 +54,7 @@
 
             <div id="navbarCollapse" class="collapse navbar-collapse position-relative">
               
-              <div class="heading-number">
+              <div class="top-info">
                 <a href="#"><i class="fas fa-phone-alt"></i>+1 234 56 78 90</a>
               </div>
   
@@ -168,38 +168,46 @@
     <!-- Content
       ============================================= -->
     <section id="content">
+
       <div class="content-wrap position-relative">
         
         <!-- Contact Us 
         ============================================= -->
         <div class="container">
-          <div class="page-directory">
-            <a href="#"><span class="home-directory">Home /</span></a>
-            <a href="#"><span class="other-directory">About Us</span></a>
+          <div class="breadcrumb">
+            <ul class="d-flex gap-3">
+              <li>
+                <a href="#">Home /</a>
+              </li>
+              <li>
+                <a href="#" class="active">Contact Us</a>
+              </li>
+            </ul>
           </div>
+
           <div class="row">
-            <div class="col-xxl-4">
+            <div class="col-xxl-5">
               <div id="page-title" class="d-flex flex-column align-items-center align-items-xxl-start">
-                <h1 class="title contact-title-my">Contact Us</h1>
+                <h1 class="title text-dark">Contact Us</h1>
                 <p class="heading-font fs-2 lh-base text-black mb-2">123 East 26th Street, Fifth Floor, New York, NY 10011</p>
-                <p class="body-font fs-4 lh-1 text-black-opacity mb-5">Our Adress</p>  
+                <p class="fs-4 lh-1 mb-5">Our Adress</p>  
               </div>
               <div class="d-flex flex-row justify-content-center justify-content-xxl-start">
                 <div class="mt-2">
                   <p class="heading-font fs-2 lh-1 text-primary mb-2">+1 234 56 78 90</p>
-                  <p class="body-font fs-4 lh-1 text-black-opacity mb-5">Our Phone</p>
+                  <p class="fs-4 lh-1 mb-5">Our Phone</p>
                 </div>
                 <div class="mt-2 ms-4">
                   <p class="heading-font fs-2 lh-1 text-primary mb-2">INFO@SALER.COM</p>
-                  <p class="body-font fs-4 lh-1 text-black-opacity mb-5">Our Email</p>
+                  <p class="fs-4 lh-1 mb-5">Our Email</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="row">
-            <div class="col-xxl-3">
-              <form action="#" class="contact-xxl-margin">
-                <div id="page-title" class="d-flex flex-column align-items-center align-items-xxl-start">
+            <div class="col-xxl-4">
+              <form action="#" class="mb-lg-5 pb-lg-5">
+                <div class="heading-block">
                   <h2 class="sub-title mt-3">Contact with Me</h2>
                 </div>
                 <div class="col-xxl-9">
@@ -210,13 +218,13 @@
                     <input type="text" value="" class="form-control contact-input rounded-0" name="name" id="Name" placeholder="NAME">
                   </div>
                   <div class="mt-1">
-                    <button type="submit" class="btn btn-primary btn-normal col-12 text-uppercase">SEND MESSAGE <img src="images/icons/arrow.png" alt="404 page" class="img-fluid"></button>
+                    <button type="submit" class="btn btn-primary text-white btn-normal col-12 text-uppercase">SEND MESSAGE <img src="images/icons/arrow.png" alt="404 page" class="img-fluid ms-3"></button>
                   </div>
                 </div>
               </form>
             </div>
           </div>
-          <div class="contact-map">
+          <div id="map">
             <img src="images/map.png" alt="map" class="img-fluid">
           </div>
         </div>
@@ -226,6 +234,7 @@
     <!-- Footer
     ============================================= -->
     <footer id="footer">
+      
       <div class="container">
 
         <!-- Footer Main
@@ -236,58 +245,57 @@
                 <div class="footer-logo">
                   <img src="images/footer-logo.png" alt="footer logo" class="img-fluid">
                 </div>
-                <p class="body-font lh-1 mb-0 mt-5">Consultation on the order:</p>
+                <p class="lh-1 mb-0 mt-5">Consultation on the order:</p>
                 <p class="heading-font text-primary fs-2 lh-1 my-3">8 800 779 32 12</p>
-                <p class="body-font lh-1 mb-0">Monday – Saturday:</p>
-                <p class="body-font lh-1 my-2">09 am – 10 pm</p>
+                <p class="lh-1 mb-0">Monday – Saturday:</p>
+                <p class="lh-1 my-2">09 am – 10 pm</p>
               </div>
               <div class="col-xl-3 col-5">
-                <h5 class="heading-font fs-3 fw-regular text-capitalize text-white pt-2 mb-4">Customer Services</h5>
-          
-                <ul class="widget">
-                  <li><a href="#">Help & FAQs</a></li>
-                  
-                  <li><a href="#">Order Tracking</a></li>
 
-                  <li><a href="#">Shipping & Delivery</a></li>
-
-                  <li><a href="#">Orders History</a></li>
-
-                  <li><a href="#">Advanced Search</a></li>
-
-                  <li><a href="#">Login</a></li>
-                </ul>
-              </div>
-              <div class="col-xl-4 col-7">
-                <h5 class="heading-font fs-3 fw-regular text-capitalize text-white pt-2 mb-4">About Us</h5>
-          
-                <div class="row">
-                  <div class="col-6 col-xl-4">
-                    <ul class="widget">
-                      <li><a href="#">About Us</a></li>
-                      
-                      <li><a href="#">Careers</a></li>
-      
-                      <li><a href="#">Our Stores</a></li>
-      
-                      <li><a href="#">Corporate Sales</a></li>
-      
-                      <li><a href="#">Careers</a></li>
-                    </ul>
-                  </div>
-                  <div class="col-6 col-xl-8">
-                    <ul class="widget">
-                      <li><a href="#">About the company</a></li>
-                      <li><a href="#">Delivery and payment</a></li>
+                <div class="widget widget-links">
+                  <h5 class="widget-title text-capitalize text-white pt-2 mb-4">Customer Services</h5>
+                  <div class="widget-content">
+                    <ul>
+                      <li><a href="#">Help & FAQs</a></li>
+                      <li><a href="#">Order Tracking</a></li>
+                      <li><a href="#">Shipping & Delivery</a></li>
+                      <li><a href="#">Orders History</a></li>
+                      <li><a href="#">Advanced Search</a></li>
+                      <li><a href="#">Login</a></li>
                     </ul>
                   </div>
                 </div>
+
               </div>
-              <div class="col-xl-2 d-flex flex-column align-items-center align-items-xl-end">
+
+              <div class="col-xl-4 col-7">
+                  <div class="widget widget-links">
+                    <h5 class="widget-title text-capitalize text-white pt-2 mb-4">About Us</h5>
+                    <div class="widget-content">
+                      <div class="d-md-flex gap-4 justify-content-between">
+                        <ul>
+                          <li><a href="#">About Us</a></li>
+                          <li><a href="#">Careers</a></li>
+                          <li><a href="#">Our Stores</a></li>
+                          <li><a href="#">Corporate Sales</a></li>
+                          <li><a href="#">Careers</a></li>
+                        </ul>
+
+                        <ul>
+                          <li><a href="#">About the company</a></li>
+                          <li><a href="#">Delivery and payment</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+              </div>
+
+              <div class="col-xl-2 text-center text-lg-end">
                 <h5 class="heading-font fs-3 fw-regular text-capitalize text-white pt-2 mb-4">Social Network</h5>
                 <div class="widget widget-social">
                   <div class="widget-content">
-                    <ul class="social-icons d-flex align-items-center">
+                    <ul class="social-icons d-flex align-items-center justify-content-center justify-content-lg-end">
                       <li><a href="#" target="_blank" title="Facebook"><i class="fab fa-instagram"></i></a></li>
                       <li><a href="#" target="_blank" title="Twitter"><i class="fab fa-facebook-f"></i></a></li>
                       <li><a href="#" target="_blank" title="Linkedin"><i class="fab fa-telegram-plane"></i></a></li>
@@ -295,36 +303,43 @@
                   </div>
                 </div>
               </div>
+
+              </div>
+
             </div>
         </div><!-- #footer-main -->
 
         <!-- Footer bottom
         ============================================= -->
         <div class="footer-bottom">
-          <div class="row">
-            <div class="col-md-4 d-flex align-items-center justify-content-center justify-content-md-start">
-              <p id="copyrights" class="mb-4 mb-md-0">Copyright &copy; 2020 FoodSite</p>
-            </div>
-            <div class="col-md-4">
+          
+          <div class="container">
+
+            <div class="d-md-flex justify-content-center justify-content-lg-between align-items-center">
+              <p class="mb-4 mb-md-0">Copyright &copy; 2020 FoodSite</p>
+
               <div class="widget widget-payment col-sm-auto">
                 <div class="widget-content">
                   <div class="payments d-flex justify-content-center">
                     <span class="payment-icon visa"></span>
+                    <span class="payment-icon mastercard"></span>
                     <span class="payment-icon paypal"></span>
-                    <span class="payment-icon mastercard me-0"></span>
                   </div>                                    
                 </div>
               </div>
+
+              <p class="mt-4 mt-md-0">All Rights Reserved</p>
+
             </div>
-            <div class="col-md-4 d-flex align-items-center justify-content-center justify-content-md-end">
-              <p id="copyrights" class="mt-4 mt-md-0">All Rights Reserved</p>
-            </div>
+
           </div>
+
         </div><!-- #footer-bottom -->
 
       </div>
 
     </footer><!-- #footer -->
+    
   </div>
 
   <!-- Go To Top

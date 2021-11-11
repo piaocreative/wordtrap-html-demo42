@@ -12,18 +12,6 @@
 .post {
 	position: relative;
 	margin-bottom: 1.875rem;
-
-	&.post-flat {
-		display: flex;
-		
-		.post-thumbnail {
-			flex: 1;
-		}
-
-		.post-content {
-			flex: 1;
-		}
-	}
 }
 
 .post-thumbnail {
@@ -50,18 +38,15 @@
 }
 
 .entry-title {
-	h4 {
-		font-family: $heading-font;
-		font-size: 2.1875rem;
-		font-weight: 400;
-		line-height: $line-height-sm;
-		margin-bottom: 1.5rem;		
+	font-size: 2.1875rem;
+	font-weight: 400;
+	line-height: $line-height-sm;
+	margin-bottom: 1.5rem;		
 
-		a {
-			color: #000000;
-			
-			&:hover { color: $theme-color; }
-		}
+	a {
+		color: #000000;
+		
+		&:hover { color: $theme-color; }
 	}
 }
 
@@ -69,16 +54,8 @@
 	list-style: none;
 	margin-bottom: 1.25rem;
 
-	li {
-		i {
-			color: rgba($theme-color, 0.5);
-			margin-right: 0.75rem;
-		}
-
-		a {
-			font-weight: 400;
-			color: rgba($color: #000000, $alpha: .5);
-		}
+	a {
+		color: rgba($color: #000000, $alpha: .5);
 	}
 }
 
@@ -90,7 +67,6 @@
 .entry-link {
 	display: block;
 	color: $theme-color;
-	font-family: $body-font;
 	text-transform: uppercase;
 	font-size: $h6-font-size;
 	font-weight: 600;

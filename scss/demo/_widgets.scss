@@ -21,14 +21,13 @@
 
 	.widget-title {
 		font-size: $h3-font-size;
-		font-family: $heading-font;
 		font-weight: 400;
+		color: $white;
 		margin-bottom: 0.75rem;
 	}
 
 	// Widget - Social
 	&.widget-social {
-
 		.social-icons {
 			li {
 				padding: 0 $spacer / 4;
@@ -63,14 +62,13 @@
 	// Widget - Links
 	&.widget-links {
 		ul {
-			display: flex;
-			justify-content: space-between;
-
 			li {
 				a {
-					color: $white;
-					font-weight: 600;
-					text-transform: uppercase;
+					color: rgba($color: #ffffff, $alpha: .5);
+					
+					&:hover {
+						color: rgba($color: #ffffff, $alpha: 1.0);
+					}
 				}
 			}
 		}

@@ -14,20 +14,19 @@
 -----------------------------------------------------------------*/
 
 .heading-block { 
-	margin-bottom: 3.5rem; 
-
-	.sub-title {
-		margin-top: 0.65rem;
-		
-	}
+	margin-bottom: 3rem; 
 
 	.title {		
-		display: block;
-		font-family: $heading-font;
-		font-size: 3rem;
-		font-weight: 700;
+		font-family: Oswald,sans-serif;
+		font-size: 5.3125rem;
+		color: #000;
+		font-weight: 500;
 		line-height: 1;
-		margin-bottom: 0;
+	}
+
+	.sub-title {
+		opacity: 0.8;
+		font-weight: 400;
 	}
 
 }
